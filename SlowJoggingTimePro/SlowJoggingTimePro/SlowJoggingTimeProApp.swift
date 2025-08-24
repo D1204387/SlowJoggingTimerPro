@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SlowJoggingTimeProApp: App {
+    @State private var timer = TimerManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(timer)
         }
     }
 }

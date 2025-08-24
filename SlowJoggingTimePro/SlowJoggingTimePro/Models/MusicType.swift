@@ -7,27 +7,23 @@
 
 import Foundation
 
-enum MusicType: String, CaseIterable {
+enum MusicType: String, CaseIterable, Codable {
     case lightMusic = "輕音樂"
-    case metronome = "節拍器"
-    case nature = "自然音"
-    case silent = "靜音"
-    
+    case nature     = "自然音"
+}
+
+extension MusicType {
     var emoji: String {
         switch self {
         case .lightMusic: return "🎵"
-        case .metronome: return "🥁"
-        case .nature: return "🌿"
-        case .silent: return "🔇"
+        case .nature:     return "🌿"
         }
     }
-    
+        /// 更像音場的副標
     var description: String {
         switch self {
-        case .lightMusic: return "舒緩音樂"
-        case .metronome: return "180 BPM"
-        case .nature: return "鳥鳴流水"
-        case .silent: return "無聲音"
+        case .lightMusic: return "舒緩旋律"
+        case .nature:     return "森林／海浪"
         }
     }
 }
