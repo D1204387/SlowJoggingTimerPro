@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		930337E02E5AD2660080C883 /* Exceptions for "SlowJoggingTimePro" folder in "SlowJoggingTimePro" target */ = {
+		930338692E5B630C0080C883 /* Exceptions for "SlowJoggingTimePro" folder in "SlowJoggingTimePro" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		930337722E59E2F40080C883 /* SlowJoggingTimePro */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				930337E02E5AD2660080C883 /* Exceptions for "SlowJoggingTimePro" folder in "SlowJoggingTimePro" target */,
-			);
-			path = SlowJoggingTimePro;
-			sourceTree = "<group>";
-		};
 		930337812E59E2F50080C883 /* SlowJoggingTimeProTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SlowJoggingTimeProTests;
@@ -56,6 +48,14 @@
 		9303378B2E59E2F50080C883 /* SlowJoggingTimeProUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SlowJoggingTimeProUITests;
+			sourceTree = "<group>";
+		};
+		930338502E5B630B0080C883 /* SlowJoggingTimePro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				930338692E5B630C0080C883 /* Exceptions for "SlowJoggingTimePro" folder in "SlowJoggingTimePro" target */,
+			);
+			path = SlowJoggingTimePro;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -91,7 +91,7 @@
 				930337812E59E2F50080C883 /* SlowJoggingTimeProTests */,
 				9303378B2E59E2F50080C883 /* SlowJoggingTimeProUITests */,
 				930337712E59E2F40080C883 /* Products */,
-				930337722E59E2F40080C883 /* SlowJoggingTimePro */,
+				930338502E5B630B0080C883 /* SlowJoggingTimePro */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				930337722E59E2F40080C883 /* SlowJoggingTimePro */,
+				930338502E5B630B0080C883 /* SlowJoggingTimePro */,
 			);
 			name = SlowJoggingTimePro;
 			packageProductDependencies = (
