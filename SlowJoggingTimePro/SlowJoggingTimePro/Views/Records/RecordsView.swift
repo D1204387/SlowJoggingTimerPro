@@ -91,7 +91,7 @@ struct RecordsView: View {
             .toolbar {
                 if !timer.records.isEmpty {
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("清除") { timer.clearAllRecords() }
+//                        Button("清除") { timer.clearAllRecords() }
                     }
                 }
             }
